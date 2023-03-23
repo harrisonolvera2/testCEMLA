@@ -32,11 +32,11 @@ for ($month = 1; $month <= 12; $month++) {
 }
 
 // Ordenar las fechas de pago de forma ascendente
-sort($pay_dates);
+//sort($pay_dates);
 
 // Imprimir las fechas de pago
 echo "Fechas de pago para el año $current_year:\n";
 foreach ($pay_dates as $pay_date) {
-    echo "$pay_date\n";
+    echo $pay_date."<br>";
 }
 ?>
